@@ -26,6 +26,7 @@ class StellarBurgers:
         response = requests.post(urls.BASE_URL + urls.CREATING_ORDER_ENDPOINT, json={"ingredients": [body]})
         return response
 
+    @staticmethod
     def creating_order_no_ingredient():
         return requests.post(urls.BASE_URL + urls.CREATING_ORDER_ENDPOINT)
 
