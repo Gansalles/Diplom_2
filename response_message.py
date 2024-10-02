@@ -1,4 +1,3 @@
-
 TRUE = '"success":true'
 
 ERROR_TWO_IDENTICAL_USER = '{"success":false,"message":"User already exists"}'
